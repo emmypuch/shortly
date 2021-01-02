@@ -256,7 +256,7 @@ div.statistics {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 90px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-color: #f0f1f6;
 }
 
@@ -293,7 +293,7 @@ div.boxes {
 div.box1 {
   background: #fff;
   padding: 10px 30px;
-  width: 300px;
+  width: 380px;
   height: 250px;
   position: relative;
 }
@@ -301,7 +301,7 @@ div.box1 {
 div.box2 {
   background: #fff;
   padding: 10px 30px;
-  width: 300px;
+  width: 380px;
   height: 250px;
   margin-top: 30px;
   position: relative;
@@ -310,7 +310,7 @@ div.box2 {
 div.box3 {
   background: #fff;
   padding: 10px 30px;
-  width: 300px;
+  width: 380px;
   height: 250px;
   margin-top: 60px;
   position: relative;
@@ -330,7 +330,7 @@ div.rectangle {
   width: 30px;
   height: 6px;
   position: absolute;
-  left: 18.7em;
+  left: 23.7em;
   top: 120px;
 }
 
@@ -473,15 +473,26 @@ div.footer-social-media i {
 }
 
 @media (max-width: 700px) {
-  section#footer {
-    padding-left: 20px;
-    padding-right: 20px;
+  div#footer {
+    padding-left: 30px;
     padding-top: 50px;
+  }
+
+  div.footer-logo h1 {
+    font-size: 1.5rem;
+  }
+
+  div.footer-links li {
+    margin: 10px;
+  }
+
+  div.footer-links a {
+    font-size: 0.7rem;
   }
 
   div.footer-container {
     display: flex;
     flex-direction: column;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
 }

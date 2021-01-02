@@ -12,8 +12,8 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 div.logo {
@@ -76,7 +76,7 @@ div.logo {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 50px;
+    padding-left: 15px;
     padding-right: 50px;
   }
 
@@ -103,8 +103,8 @@ div.logo {
 div.hero-area {
   display: flex;
   justify-content: space-between;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 100px;
 }
 
@@ -133,6 +133,7 @@ div.button button {
   padding: 15px 40px;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 div.hero-image img {
@@ -176,8 +177,8 @@ div.hero-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 80px;
   padding-bottom: 30px;
 }
@@ -252,9 +253,10 @@ div.hero-form button {
 
 /* Statistics Area */
 div.statistics {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 90px;
+  padding-bottom: 20px;
   background-color: #f0f1f6;
 }
 
@@ -377,5 +379,52 @@ div.heading p {
 
   div.rectangle {
     display: none;
+  }
+}
+
+/* Links Area */
+div.links {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  background-color: #3a3055;
+  display: flex;
+  flex-direction: column;
+}
+
+div.links-heading,
+div.links-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.links-heading h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+div.links-btn {
+  margin: 30px;
+}
+
+div.links-btn button {
+  background-color: #29d2d0;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  div.links-btn button {
+    font-size: 0.8rem;
+    padding: 15px 40px;
+    outline: none;
   }
 }

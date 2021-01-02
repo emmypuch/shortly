@@ -178,7 +178,8 @@ div.hero-form {
   align-items: center;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 90px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 div.hero-bg {
@@ -246,5 +247,135 @@ div.hero-form button {
     padding: 5px 20px;
     height: 30px;
     outline: none;
+  }
+}
+
+/* Statistics Area */
+div.statistics {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 90px;
+  background-color: #f0f1f6;
+}
+
+div.statistics-heading h2 {
+  margin-bottom: 15px;
+  color: #3f3d56;
+  font-size: 2.3rem;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.statistics-heading p {
+  color: #c6c2d9;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+div.statistics-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+div.boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+div.box1 {
+  background: #fff;
+  padding: 10px 30px;
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+div.box2 {
+  background: #fff;
+  padding: 10px 30px;
+  width: 300px;
+  height: 250px;
+  margin-top: 30px;
+  position: relative;
+}
+
+div.box3 {
+  background: #fff;
+  padding: 10px 30px;
+  width: 300px;
+  height: 250px;
+  margin-top: 60px;
+  position: relative;
+}
+
+div.circle {
+  background: #3a3055;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  position: absolute;
+  top: -35px;
+}
+
+div.rectangle {
+  background: #29d2d0;
+  width: 30px;
+  height: 6px;
+  position: absolute;
+  left: 18.7em;
+  top: 120px;
+}
+
+div.heading {
+  margin-top: 70px;
+}
+
+div.heading h3 {
+  font-size: 1.2rem;
+  color: #3a3055;
+  font-weight: 900;
+}
+
+div.heading p {
+  font-size: 1rem;
+  color: #c6c2d9;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  div.statistics {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
+
+  div.statistics-heading h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+
+  div.statistics-heading p {
+    font-size: 0.8rem;
+  }
+
+  div.boxes {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  div.box1 {
+    margin-top: 30px;
+  }
+
+  div.rectangle {
+    display: none;
   }
 }

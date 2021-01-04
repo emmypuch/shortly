@@ -471,9 +471,13 @@ div.footer-links a:hover {
 
 div.footer-social-media i {
   margin: 5px;
-  color: #29d2d0;
+  color: #c6c2d9;
   padding: 5px;
   border-radius: 10px;
+}
+
+div.footer-social-media i:hover {
+  color: #29d2d0;
 }
 
 @media (max-width: 700px) {

@@ -180,7 +180,7 @@ div.hero-form {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 div.hero-bg {
@@ -256,7 +256,7 @@ div.statistics {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 90px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-color: #f0f1f6;
 }
 
@@ -391,6 +391,7 @@ div.links {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #3a3055;
   display: flex;
   flex-direction: column;
